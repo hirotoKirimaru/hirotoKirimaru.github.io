@@ -16,38 +16,31 @@
   </div>
 </template>
 
-<script>
-  export default {
-    props: {
-      large: {
-        type: Boolean,
-        default: false,
-      },
-    },
+<script lang="ts">
+  import { Component, Prop, Vue } from 'vue-property-decorator'
 
-    data: () => ({
-      items: [
-        {
-          name: 'Twitter',
-          icon: 'mdi-twitter',
-        },
-        {
-          name: 'Instagram',
-          icon: 'mdi-instagram',
-        },
-        {
-          name: 'Facebook',
-          icon: 'mdi-facebook',
-        },
-        {
-          name: 'Email',
-          icon: 'mdi-email',
-        },
-        {
-          name: 'Phone',
-          icon: 'mdi-phone',
-        },
-      ],
-    }),
+  @Component
+  export default class SocialMedia extends Vue {
+    @Prop({ default: false })
+    large!: boolean;
+
+    items = [
+      {
+        name: 'Twitter',
+        icon: 'mdi-twitter',
+      },
+      {
+        name: 'Facebook',
+        icon: 'mdi-facebook',
+      },
+      {
+        name: 'Email',
+        icon: 'mdi-email',
+      },
+      {
+        name: 'Phone',
+        icon: 'mdi-phone',
+      },
+    ];
   }
 </script>

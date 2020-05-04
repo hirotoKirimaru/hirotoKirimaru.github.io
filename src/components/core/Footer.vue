@@ -3,16 +3,18 @@
     height="88"
     class="justify-center"
   >
-    <social-media large />
+    <social-media :large="true" />
   </v-footer>
 </template>
 
-<script>
-  export default {
-    name: 'CoreFooter',
+<script lang="ts">
+  import { Component, Vue } from 'vue-property-decorator'
 
-    components: {
-      SocialMedia: () => import('@/components/SocialMedia'),
-    },
+@Component({
+  components: {
+    SocialMedia: () => import('@/components/SocialMedia'),
+  },
+})
+  export default class CoreFooter extends Vue {
   }
 </script>

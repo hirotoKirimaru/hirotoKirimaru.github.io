@@ -67,8 +67,8 @@
   </section>
 </template>
 
-<script>
-  export default {
-    name: 'GetInTouch',
-  }
+<script lang="ts">
+  import { Vue } from 'vue-property-decorator'
+
+  export default class GetInTouch extends Vue {}
 </script>
