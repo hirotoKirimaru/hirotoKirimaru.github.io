@@ -12,8 +12,8 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
 
-  'extends': [
+  extends: [
     'vuetify',
-    '@vue/typescript'
-  ]
+    '@vue/typescript',
+  ],
 }
