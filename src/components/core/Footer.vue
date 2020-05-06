@@ -12,7 +12,7 @@
 
 @Component({
   components: {
-    SocialMedia: () => import('@/components/SocialMedia'),
+    SocialMedia: () => import('@/components/SocialMedia.vue'),
   },
 })
   export default class CoreFooter extends Vue {

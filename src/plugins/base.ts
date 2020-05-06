@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import BaseBtn from '@/components/base/Btn'
-import BaseHeading from '@/components/base/Heading'
-import BaseSubheading from '@/components/base/Subheading'
-import BaseText from '@/components/base/Text'
-import BaseBubble1 from '@/components/base/Bubble1'
-import BaseBubble2 from '@/components/base/Bubble2'
+import BaseBtn from '@/components/base/Btn.vue'
+import BaseHeading from '@/components/base/Heading.vue'
+import BaseSubheading from '@/components/base/Subheading.vue'
+import BaseText from '@/components/base/Text.vue'
+import BaseBubble1 from '@/components/base/Bubble1.vue'
+import BaseBubble2 from '@/components/base/Bubble2.vue'
 
 Vue.component('BaseBtn', BaseBtn)
 Vue.component('BaseHeading', BaseHeading)

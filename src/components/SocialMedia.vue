@@ -28,19 +28,21 @@
       {
         name: 'Twitter',
         icon: 'mdi-twitter',
+        link: 'https://twitter.com/nainaistar',
       },
       {
         name: 'Facebook',
         icon: 'mdi-facebook',
+        link: 'https://www.facebook.com/nainaistar',
       },
-      {
-        name: 'Email',
-        icon: 'mdi-email',
-      },
-      {
-        name: 'Phone',
-        icon: 'mdi-phone',
-      },
+      // {
+      //   name: 'Email',
+      //   icon: 'mdi-email',
+      // },
+      // {
+      //   name: 'Phone',
+      //   icon: 'mdi-phone',
+      // },
     ];
   }
 </script>
