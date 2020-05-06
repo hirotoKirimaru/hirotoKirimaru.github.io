@@ -10,6 +10,7 @@
     >
       <v-icon
         dark
+        @click="next(item.link)"
         v-text="item.icon"
       />
     </v-btn>
@@ -44,5 +45,9 @@
       //   icon: 'mdi-phone',
       // },
     ];
+
+    next (link: string) {
+      window.open(link, '_blank', 'noopener')
+    };
   }
 </script>
