@@ -19,19 +19,19 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+          水上 皓登 Mizukami Hiroto<br>
+          nainaistar@gmail.com
+        </base-text>
+
+        <base-text class="mb-5">
+          千葉にてJavaを基本にしたエンジニアをやっています。<br>
+          基本はバックエンドエンジニアとして働いていました。<br>
+          趣味としてはVue.js, typescriptを好んで使用しています。
         </base-text>
 
         <base-subheading class="info--text">
           Skills
         </base-subheading>
-
-        <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br>
-          lit. Etiam vulputate augu e vel felis gravida porta.
-        </base-text>
 
         <v-alert
           outlined
@@ -51,11 +51,11 @@
             <v-col
               class="text-right"
               cols="6"
-              v-text="`${skill.value}%`"
+              v-text="`${skill.value}`"
             />
 
             <v-progress-linear
-              :value="skill.value"
+              :value="skill.percent"
               color="info"
               height="8"
             />
@@ -68,7 +68,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/aboutme.png')"
+          :src="require('@/assets/profile.jpg')"
           height="100%"
         />
       </v-col>
@@ -81,16 +81,29 @@
     data: () => ({
       skills: [
         {
-          name: 'Web Design',
-          value: 100,
+          name: 'Java',
+          value: '5.5年',
+          percent: 100,
         },
         {
-          name: 'Web Development',
-          value: 75,
+          name: 'VB.net',
+          value: '1.5年',
+          percent: 30,
         },
         {
-          name: 'Web Support',
-          value: 90,
+          name: 'Docker',
+          value: '1.5年',
+          percent: 30,
+        },
+        {
+          name: 'Vue.js',
+          value: '3カ月',
+          percent: 5,
+        },
+        {
+          name: 'TypeScript',
+          value: '3カ月',
+          percent: 5,
         },
       ],
     }),

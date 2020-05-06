@@ -9,7 +9,7 @@
         md="6"
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          :src="require('@/assets/aboutme.png')"
           height="100vh"
         />
       </v-col>
@@ -32,20 +32,15 @@
             cols="10"
             md="6"
           >
-            <base-heading>Welcome!</base-heading>
+            <base-heading>Career</base-heading>
             <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+              2014/04～2018/01<br>
+              株式会社ISTソフトウェア
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
+            <base-text>
+              2018/02～在籍中<br>
+              ソフトバンク株式会社
+            </base-text>
           </v-col>
         </v-row>
 
