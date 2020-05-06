@@ -36,6 +36,16 @@
         icon: 'mdi-facebook',
         link: 'https://www.facebook.com/nainaistar',
       },
+      {
+        name: 'GitHub',
+        icon: 'mdi-github-circle',
+        link: 'https://github.com/hirotoKirimaru',
+      },
+      {
+        name: 'Blog',
+        icon: 'mdi-blogger',
+        link: 'https://nainaistar.hatenablog.com/',
+      },
       // {
       //   name: 'Email',
       //   icon: 'mdi-email',
