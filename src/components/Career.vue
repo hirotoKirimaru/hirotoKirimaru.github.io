@@ -34,11 +34,15 @@
           >
             <base-heading>Career</base-heading>
             <base-text>
-              2014/04～2018/01<br>
+              2014年04月～2018年01月
+            </base-text>
+            <base-text>
               株式会社ISTソフトウェア
             </base-text>
             <base-text>
-              2018/02～在籍中<br>
+              2018年02月～在籍中
+            </base-text>
+            <base-text>
               ソフトバンク株式会社
             </base-text>
           </v-col>
