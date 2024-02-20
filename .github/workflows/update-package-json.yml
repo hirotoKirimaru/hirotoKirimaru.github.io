@@ -6,7 +6,7 @@ jobs:
   package-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v4
       - name: setup
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -15,8 +15,10 @@ jobs:
           npm install -g npm-check-updates
       - name: git_setup
         run: |
-          git switch main
-          git reset --hard origin/main
+          git switch master
+          git reset --hard origin/master
+          # git switch main
+          # git reset --hard origin/main
       - name: version up
         run: |
           ncu -u
