@@ -22,7 +22,7 @@ jobs:
       - name: version up
         run: |
           ncu -u
-          npm install
+          npm install --force
       - name: commit
         run: |
           git pull
