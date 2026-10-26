@@ -10,11 +10,11 @@
 <script lang="ts">
   import { Component, Vue } from 'vue-property-decorator'
 
-@Component({
-  components: {
-    SocialMedia: () => import('@/components/SocialMedia.vue'),
-  },
-})
+  @Component({
+    components: {
+      SocialMedia: () => import('@/components/SocialMedia.vue'),
+    },
+  })
   export default class CoreFooter extends Vue {
   }
 </script>
