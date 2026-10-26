@@ -23,7 +23,7 @@
   @Component
   export default class SocialMedia extends Vue {
     @Prop({ default: false })
-    large!: boolean;
+    large!: boolean
 
     items = [
       {
@@ -54,7 +54,7 @@
       //   name: 'Phone',
       //   icon: 'mdi-phone',
       // },
-    ];
+    ]
 
     next (link: string) {
       window.open(link, '_blank', 'noopener')

@@ -14,12 +14,14 @@
         />
       </v-col>
 
+      <!-- eslint-disable vuetify/grid-unknown-attributes -->
       <v-col
         class="align-content-space-between layout wrap"
         cols="12"
         md="6"
         :pa-5="$vuetify.breakpoint.smAndDown"
       >
+        <!-- eslint-enable vuetify/grid-unknown-attributes -->
         <base-bubble-1
           style="transform: rotate(180deg) translateY(25%)"
         />
